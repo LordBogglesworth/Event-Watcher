@@ -18,6 +18,8 @@ Other features to be added later:
 	4. Ticket holding functionality which links their account with what application holds their ticket
 	status (e.g. Ticketek, Moshtix). Also wallet function.
 	5. Past event history (as well as attended events by the user)
+	6. At phone widths, allow for the user to change between list and panel view
+	(and filter by how many items to load each page, although this part should be automated based on scroll ideally)
 
 
 
