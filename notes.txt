@@ -4,27 +4,27 @@ Main Goal:
 Pull events from API and display them in a list, with links to tickets to buy (including facebook
 event link, and share button.
 
-1. Use IP address to track events near current location
+	1. Use IP address to track events near current location
 
 
 
 
 
 Other features to be added later:
-1. Sort by date, over or under 18, genre and/or popularity
-	1.2 Save favourited search filters
-2. Show travel time to event (google maps integration)
-3. User's can login and keep track of events they clicked 'going' to
-4. Ticket holding functionality which links their account with what application holds their ticket
-status (e.g. Ticketek, Moshtix). Also wallet function.
-5. Past event history (as well as attended events by the user)
+	1. Sort by date, over or under 18, genre and/or popularity
+		1.2 Save favourited search filters
+	2. Show travel time to event (google maps integration)
+	3. User's can login and keep track of events they clicked 'going' to
+	4. Ticket holding functionality which links their account with what application holds their ticket
+	status (e.g. Ticketek, Moshtix). Also wallet function.
+	5. Past event history (as well as attended events by the user)
 
 
 
 
 To use:
-Bootstrap for responsiveness
-Node.js for back end
-React? (will need to investigate use of React to see if its worth adding as of now)
+	Bootstrap for responsiveness
+	Node.js for back end
+	React? (will need to investigate use of React to see if its worth adding as of now)
 
-Ayy lmao
+	Ayy lmao
