@@ -30,3 +30,6 @@ To use:
 	Bootstrap for responsiveness
 	Node.js for back end
 	React? (will need to investigate use of React to see if its worth adding as of now)
+
+Extra:
+	1. Logo: Eyeball with retina as musical notation symbol
