@@ -21,6 +21,7 @@ Other features to be added later:
 	6. At phone widths, allow for the user to change between list and panel view
 	(and filter by how many items to load each page, although this part should be automated based on scroll ideally)
 	7. Event reminders for 7 days, 3 days, 1 day and 3 hours before event
+	8. Price and Release filter
 
 
 
