@@ -5,6 +5,7 @@ Pull events from API and display them in a list, with links to tickets to buy (i
 event link, and share button.
 
 	1. Use IP address to track events near current location
+	2. Use class template to automatically create event listing (object)
 
 
 
@@ -23,6 +24,9 @@ Other features to be added later:
 	7. Event reminders for 7 days, 3 days, 1 day and 3 hours before event
 		7.1 Calendar Integration
 	8. Price and Release filter
+	9. Icon for event when clicked (if no icon, primary/accent color as
+	 background when selected)
+	10. Ability to check price of tickets on same module
 
 
 
