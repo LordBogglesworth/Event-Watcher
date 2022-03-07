@@ -1,5 +1,62 @@
+:root {
+  --main-bg-color: rgb(143, 143, 143);
+
+  --heading-text-color: #f52660;
+  --sub-heading-text-color: #db2357;
+  --body-text-color: rgb(65, 61, 61);
+}
+
 * {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: var(--main-bg-color);
+}
+
+h2,
+h4 {
+  color: var(--heading-text-color);
+  /* font-size: 1.5rem; */
+}
+
+h3 {
+  color: var(--sub-heading-text-color);
+}
+
+nav {
+  padding: 0.25em 0.5em;
+}
+
+.banner {
+  display: flex;
+}
+
+.ticket-hand-emoji {
+  max-width: 30%;
+  margin: 1em auto;
+}
+
+.events-section-header {
+   padding: 0.5em;
+}
+
+.event-card {
+  margin: 0 auto;
+  border: 2px solid black;
+  max-width: 95%;
+}
+
+.event-card-image {
+  width: 100%;
+}
+
+.event-description {
+   padding: 0.5em;
+}
+
+.description-line {
+   padding: 0.25em 0;
 }
