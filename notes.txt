@@ -16,6 +16,7 @@ Other features to be added later:
 		1.2 Save favourited search filters
 	2. Show travel time to event (google maps integration)
 	3. User's can login and keep track of events they clicked 'going' to
+	(for now put triple dot section with 'Login (coming soon)' option)
 	4. Ticket holding functionality which links their account with what application holds their ticket
 	status (e.g. Ticketek, Moshtix). Also wallet function.
 	5. Past event history (as well as attended events by the user)
