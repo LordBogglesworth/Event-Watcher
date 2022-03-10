@@ -8,7 +8,15 @@ event link, and share button.
 	2. Use class template to automatically create event listing (object)
 
 
+To Do:
+      1. Add navbar with search icon and triple dot with login (coming soon) option
+      2. Add filter icon
+      3. Change Icon to microphone/music notes/ticket
+		4. "A Music Concert and Gig compiler so you never miss another event"
+		5. Find two good fonts
+		6. Fix 'event-price' opacity clipping with navbar
 
+		Navbar video link: https://www.youtube.com/watch?v=W-nIX17Gg-Q
 
 
 Other features to be added later:
