@@ -1,26 +1,47 @@
 :root {
-  --main-bg-color: rgb(230, 227, 227);
+  /* --main-bg-color: #f3f3f3;
 
-  --heading-text-color: #f52660;
+  --heading-text-color: #d42456;
   --sub-heading-text-color: #db2357;
   --body-text-color: rgb(65, 61, 61);
+ */
 
   --header-font-family: arial;
   --body-font-family: sans-serif;
+
+  /* BLUE: */
+
+  --main-bg-color: #39c2da;
+  /* #db2357 */
+
+  --heading-text-color: #f3f3f3;
+  --sub-heading-text-color: #f3f3f3;
+  --body-text-color: rgb(255, 255, 255);
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-html {
-  background: #f3f3f3;
+body {
+  background: var(--main-bg-color);
+  font-family: var(--header-font-family);
 }
 
-body {
-  margin: 1em;
+header {
+  background: #383636;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
 }
 
 h1,
@@ -38,11 +59,22 @@ h4 {
 }
 
 h3 {
-  color: var(--sub-heading-text-color);
+  color: var(--heading-text-color);
 }
 
 p {
   font-family: var(--body-font-family);
+  color: var(--body-text-color);
+}
+
+li a {
+  text-decoration: none;
+  color: var(--heading-text-color);
+  font-weight: bold;
+}
+
+.main-content-wrapper {
+  margin: 1em;
 }
 
 .title {
@@ -74,6 +106,8 @@ p {
   width: 3.3em;
   background-color: crimson;
   border-radius: 2rem;
+  /* border: 2px solid black; */
+  margin: 0.25em 0 0 0;
 }
 
 .card-panel-grid {
