@@ -8,40 +8,65 @@
 
     <link rel="stylesheet" href="style.css" />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Mukta&family=Roboto+Condensed&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans&family=Roboto&display=swap");
     </style>
   </head>
   <body>
     <header>
-      <img src="images-emojis/Logo.png" alt="GigWatcher Logo, two eyes within a music symbol">
-      <h3>GigWatcher</h3>
-      <a href="#" class="more-info"><img src="images-emojis/Triple Dot.png"></a>
+      <img
+        src="images-emojis/Logo.png"
+        alt="GigWatcher Logo, two eyes within a music symbol"
+      />
+      <h2>GigWatcher</h2>
+      <button class="more-info"
+        ><img src="images-emojis/Triple Dot.png"
+      /></button>
     </header>
-    <section class="slogan-container">
-      <h4 class="slogan">So you never miss another Gig</h4>
-    </section>
-    <navbar>
-      <ul>
-        <li><a href="#">Events</a></li>
-        <li><a href="#"><img src="images-emojis/Watchlist.png" alt="Watchlist icon"></a></li>
-        <li><a href="#"><img src="images-emojis/Search.png" alt="Search icon"></a></li>
-      </ul>
-    </navbar>
-    <section class="event-listings">
-      <div class="event-card">
-        <div class="event-image"><img src="images-emojis/Nights Like This.png"></div>
-        <a class="event-add-to-watchlist" href="#"><img src="images-emojis/Add to Watchlist.png"></a>
-        <div class="event-info">
-          <h4 class="event-describers event-title">Nights Like This</h4>
-          <h5 class="event-describers event-date"> Thursday, 25 March 2022, 10pm-5am</h5>
-          <h5 class="event-describers event-location">Qudos Bank Arena, Sydney Olympic Park</h5>
-          <h5 class="event-describers event-price">Starting from: $45</h5> 
-          <div class="event-purchase-tickets"><a href="#"><img src="images-emojis/Ticket.png"></a></div>
+    <div class="content-wrapper">
+      <section class="slogan-container">
+        <h4 class="slogan">So you never miss another Gig</h4>
+      </section>
+      <navbar>
+        <ul>
+          <li>
+            <a href="#"><h3>Events</h3></a>
+          </li>
+          <li>
+            <button>
+              <img src="images-emojis/Watchlist.png" alt="Watchlist icon" />
+            </button>
+          </li>
+          <li>
+            <button>
+              <img src="images-emojis/Search.png" alt="Search icon" />
+            </button>
+          </li>
+        </ul>
+      </navbar>
+      <section class="event-listings">
+        <div class="event-card">
+          <div class="event-image">
+            <img src="images-emojis/Nights Like This.png" />
+          </div>
+          <button class="event-add-to-watchlist" href="#"
+            ><img src="images-emojis/Add to Watchlist.png"
+          /></button>
+          <div class="event-info">
+            <h3 class="event-describers event-title">Nights Like This</h3>
+            <h4 class="event-describers event-date">
+              Thursday, 25 March 2022, 10pm-5am
+            </h4>
+            <h4 class="event-describers event-location">
+              Qudos Bank Arena, Sydney Olympic Park
+            </h4>
+            <h4 class="event-describers event-price">Starting from: $45</h4>
+            <div class="event-purchase-tickets">
+              <a href="#"><img src="images-emojis/Ticket.png" /></a>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-  <script src="script.js"></script>
-</body>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
-
-
